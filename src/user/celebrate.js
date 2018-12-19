@@ -6,8 +6,9 @@ class Text extends React.Component{
         return(
             <div  className=" container-fuild mafttext">
               <div className="row">
-                <div className="col-lg-12 col-md-12 col-sm-12"></div>
+                <div className="col-lg-12 col-md-12 col-sm-12">
                 <p className="mafttext-intro">We Celebrate the difference</p>
+                </div>
                 </div>
             </div>
         )

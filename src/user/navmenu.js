@@ -1,6 +1,6 @@
 import React from 'react';
- 
-
+import { BrowserRouter, Link, Route } from 'react-router-dom'
+import Concept from  "../concept/concept"
 class Navmenu extends React.Component{
     render(){
         return(
@@ -16,8 +16,16 @@ class Navmenu extends React.Component{
     <li class="nav-item active">
         <a class="nav-link" href="#">Home</a>
       </li>
-      <li class="nav-item ">
-        <a class="nav-link" href="#about">About</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="Fashion">
+          <Link to="/concept">Concept</Link>
+          
+          <a> class="dropdown-item" href="#">Manifesto</a>
+           
+        </div>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -42,13 +50,13 @@ class Navmenu extends React.Component{
         </div>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="#">MAFTERS<span class="sr-only">(current)</span></a>
+        <a className="nav-link" href="#">MAFTERS<span Name="sr-only"></span></a>
       </li>
-      <li class="nav-item ">
-        <a class="nav-link" href="#">CULTURE<span class="sr-only">(current)</span></a>
+      <li className="nav-item ">
+        <a className="nav-link" href="#">CULTURE<span class="sr-only"></span></a>
       </li>
-      <li class="nav-item ">
-        <a class="nav-link" href="#contactus">CONTACT<span class="sr-only">(current)</span></a>
+      <li className="nav-item ">
+        <a className="nav-link" href="#contactus">CONTACT<span class="sr-only"></span></a>
       </li>
     </ul>
     <form className="form-inline my-2 my-lg-0">
