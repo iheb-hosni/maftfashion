@@ -7,15 +7,10 @@
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.d-block {
+  width: 2000px;
+  height: 600px;
+
 }
 
 .App-link {
@@ -29,4 +24,263 @@
   to {
     transform: rotate(360deg);
   }
+}
+.modal-sign{
+   display: flex;
+  justify-content: space-around
+
+}
+.form-inline{
+  margin-right:50px;
+}
+.btn{
+  margin-right: 20px;
+}
+.navbar{
+  position: fixed;
+  height: 60px;
+	width: 100%;
+  z-index:5255555551;
+  top:0;
+  
+}
+.sliders{
+  margin-top:60px;
+}
+.social{
+  background-color: #01202F;
+  margin-top:80px;
+}
+hr{
+	background-color: #50545c;
+    margin: 30px 60px 0px;
+    height: 2px;
+    border: 0;
+}
+.contact-us{
+  margin-top:200px;
+  
+
+
+}
+.copyright{
+	margin: 30px;
+	color: white;
+	font-size: 25px;
+	font-weight: 300;
+	letter-spacing:2px;
+	font-family: 'Lobster', cursive;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+.soc  ul li
+{
+	float: left;
+}
+.soc ul li a{
+	display: block;
+	color: #aaa;
+	margin: 0 10px;
+	font-size: 20px;
+	transition: 0.5s;
+	text-align: center;
+ }
+.soc ul li:hover a{
+	color: #F33D3D;
+	transform: rotateY(360deg);
+}
+.lien {
+  list-style-type: none;
+  margin-top: 40px;
+   
+}
+.lien a {
+  color: white;
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+.titre-txt {
+  color: #878787;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top:20px;
+}
+.titre-adr {
+  color: white;
+  font-size: 30px;
+}
+.soc ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+.soc ul li {
+  float: left;
+}
+.myrow{
+  padding: 30px;
+  margin: 60px 0px;
+  background:linear-gradient(to right, #33ccff 0%, #ff99cc 100%);;
+
+}
+.ads{
+  border:2px solid;
+  height: 300px;
+}
+
+.timeline{
+  position: relative;
+  margin: 50px auto;
+  padding: 40px 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: url(https://wallpapercave.com/wp/UhRqKPh.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+
+}
+.timeline::before
+{
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: #c5c5c5;
+}
+.timeline ul
+{
+  margin:0;
+  padding:0;
+}
+.timeline ul li{
+  list-style: none;
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+.timeline ul li:nth-child(odd)
+{
+  float: left;
+  text-align: right;
+  clear:both;
+}
+.timeline ul li:nth-child(even)
+{
+  float: right;
+  text-align: left;
+  clear:both;
+}
+.content{
+  padding-bottom: 20px;
+}
+.timeline ul li:nth-child(odd)::before
+{
+  content: '';
+  position: absolute;
+  top: 24px;
+  right:-6px;
+  width: 10px;
+  height: 10px;
+  background: rgba(233,33,99,1);
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(233,33,99,0.2);
+}
+.timeline ul li:nth-child(even)::before
+{
+  content: '';
+  position: absolute;
+  top: 24px;
+  left:-4px;
+  width: 10px;
+  height: 10px;
+  background: rgba(233,33,99,1);
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(233,33,99,0.2);
+}
+.timeline ul li h3{
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  color: rgba(233,33,99,1)
+}
+.timeline ul li p 
+{
+  margin:10px 0 0;
+  padding: 0;
+}
+.timeline ul li .time{
+  margin:0;
+  padding: 0;
+  font-size: 14px;
+}
+.timeline ul li:nth-child(odd) .time
+{
+  position: absolute;
+  top: 12px;
+  right: -165px;
+  margin: 0;
+  padding: 8px 16px;
+  background: rgba(233,33,99,1);
+  color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 0 0 3px rgba(233,33,99,0.3);
+}
+.timeline ul li:nth-child(even) .time
+{
+  position: absolute;
+  top: 12px;
+  left: -165px;
+  margin: 0;
+  padding: 8px 16px;
+  background: rgba(233,33,99,1);
+  color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 0 0 3px rgba(233,33,99,0.3);
+}
+.fashion-his{
+   margin-bottom: 50px;
+   color: white
+}
+.citation{
+  background: url(https://quotefancy.com/media/wallpaper/3840x2160/4730802-Coco-Chanel-Quote-Everyday-is-a-fashion-show-and-the-world-is-the.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 600px;
+  background-attachment: fixed;
+}
+@media screen and (max-width:800px){
+  .citation{
+    background-size:contain;
+  }
+}
+.info{
+  color: white;
+}
+.articles-info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border:2px solid ;
+ }
+.article-info{
+   width: 50px;
+}
+.articles{
+  
+ }
+.article-name{
+  border:1px solid red;
+  width: 200px;
+  font-size: 20px;
 }
