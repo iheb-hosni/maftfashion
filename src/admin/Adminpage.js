@@ -1,8 +1,17 @@
 import React from 'react'
-import Routes from './admin/Routes'
+import Header from './Header'
+import Navbar from './Navbar'
+
 
 const Adminpage = () => {
      return (
-         <Routes />
+         <div>
+        <div>
+         <Header />
+        </div>
+        <div> <Navbar /> </div>
+        </div>
+
      )
 }
+ export default Adminpage
