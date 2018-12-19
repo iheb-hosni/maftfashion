@@ -271,18 +271,14 @@ hr{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  border:2px solid ;
- }
-.article-info{
-   width: 50px;
-}
-.articles{
-  
- }
+  }
+
+
 .article-name{
-  border:1px solid red;
-  width: 200px;
+   width: 300px;
   font-size: 20px;
+   color: black;
+   margin:10px;
 }
 
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -327,3 +323,25 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .btn:hover {
   opacity: 1;
 }
+.article-img{
+  height: 200px;
+  width: 300px;
+}
+ .mafttext{
+   border:1px solid;
+   display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-top:20px;
+    background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/90/79/7757de315673000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+  }
+  .mafttext-intro{
+      font-size: 50px;
+    font-weight: 600
+    
+  }

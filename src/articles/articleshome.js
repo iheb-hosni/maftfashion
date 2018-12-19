@@ -7,7 +7,7 @@ const articles =[
     },
     {
     articleimg:"http://www.pleasemagazine.com/wp-content/uploads/2018/04/Bokelber_Copyright-2-300x201.jpg",
-    articletxt:"Luxury for me is not buying expensive things. It's living in a way where you appreciate things."
+    articletxt:"viva azaro"
     },
     {
      articleimg:"http://www.pleasemagazine.com/wp-content/uploads/2018/05/COUV-LOUIS-VUITTON-1-300x182.jpg",
@@ -31,7 +31,7 @@ const Article = props =>{
   return (
     <div className="articles">
       <a href="#">
-        <img src={element.articleimg} />
+        <img className="article-img" src={element.articleimg} />
         <div className="article-info">
           <h1 className="article-name">{element.articletxt}</h1>
           
