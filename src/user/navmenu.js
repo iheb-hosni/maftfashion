@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Link, Route } from 'react-router-dom'
-import Concept from  "../concept/concept"
+import Concept from  "./concept"
 class Navmenu extends React.Component{
     render(){
         return(
@@ -11,31 +11,35 @@ class Navmenu extends React.Component{
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-    <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
+  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul className="navbar-nav mr-auto">
+    <li className="nav-item active">
+        <a className="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          About
+        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        About
         </a>
-        <div class="dropdown-menu" aria-labelledby="Fashion">
-          <Link to="/concept">Concept</Link>
+        <div className="dropdown-menu aboutmenu" aria-labelledby="Fashion">
+          <a className="dropdown-item" href="#"><Link to="/concept">Concept</Link></a>
+          <a className="dropdown-item" href="#">   <Link to="/manifesto">Manifesto</Link> </a>
           
-          <a> class="dropdown-item" href="#">Manifesto</a>
            
         </div>
+          
+         
+       
+      
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Fashion
         </a>
         <div class="dropdown-menu" aria-labelledby="Fashion">
-          <a class="dropdown-item" href="#">News</a>
-          <a class="dropdown-item" href="#">Inspiration</a>
+          <a class="dropdown-item" href="#"><Link to ="/news">News</Link></a>
+          <a class="dropdown-item" href="#"><Link to ="/inspiration">Inspiration</Link></a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Designer of the month</a>
+          <a class="dropdown-item" href="#"><Link to ="/designer of the month">Designer of the month</Link></a>
         </div>
       </li>
       <li class="nav-item dropdown">

@@ -6,8 +6,9 @@ import Slider from './user/sliders';
  import Text from './user/celebrate'
 import Footer from './user/footer'
 import Authentif from './admin/Authentif'
-import {BrowserRouter as Router} from 'react-router-dom'
-import Routes from './admin/Routes'
+import Concept from "./user/concept"
+import {BrowserRouter as Router , Route} from 'react-router-dom'
+import Routes from './Routes'
  import './App.css';
 
 class App extends Component {
