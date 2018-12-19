@@ -1,29 +1,24 @@
 import React from 'react'
+import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
-const Authentif = () => {
-  return (
-  <div>
-    <form action="/action_page.php" style="max-width:500px;margin:auto">
-        <h2>Register Form</h2>
-  <div class="input-container">
-    <i class="fa fa-user icon"></i>
-    <input class="input-field" type="text" placeholder="Username" name="usrnm"  />
-  </div>
-
-  <div class="input-container">
-    <i class="fa fa-envelope icon"></i>
-    <input class="input-field" type="text" placeholder="Email" name="email" />
-  </div>
-  
-  <div class="input-container">
-    <i class="fa fa-key icon"></i>
-    <input class="input-field" type="password" placeholder="Password" name="psw" />
-  </div>
-
-  <button type="submit" class="btn">Register</button>
-</form>
-</div>
-  )
+class Authentif extends React.Component {
+  render() {
+    return (
+      <div className="">
+      <Form>
+        <FormGroup>
+          <Label for="exampleEmail">Email</Label>
+          <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
+        </FormGroup>
+        <FormGroup>
+          <Label for="examplePassword">Password</Label>
+          <Input type="password" name="password" id="examplePassword" placeholder="password placeholder" />
+        </FormGroup>
+        <Button>Submit</Button>
+      </Form>
+      </div>
+    );
+  }
 }
 
 export default Authentif
