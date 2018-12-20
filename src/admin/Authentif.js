@@ -4,7 +4,7 @@ import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 class Authentif extends React.Component {
   render() {
     return (
-      <div className="">
+      <div className="admin-container">
       <Form>
         <FormGroup>
           <Label for="exampleEmail">Email</Label>
