@@ -38,9 +38,10 @@
 }
 .navbar{
   position: fixed;
-  height: 60px;
-	width: 100%;
   z-index:5255555551;
+  width: 100%;
+  height: 60px;
+
   top:0;
   
 }
@@ -49,8 +50,10 @@
 }
 .social{
   background-color: #01202F;
-  margin-top:80px;
-}
+
+ 
+   
+ }
 hr{
 	background-color: #50545c;
     margin: 30px 60px 0px;
@@ -155,7 +158,7 @@ hr{
   position: absolute;
   left: 50%;
   width: 2px;
-  height: 100%;
+  height: 95%;
   background: #c5c5c5;
 }
 .timeline ul
@@ -385,14 +388,44 @@ body {font-family: Arial, Helvetica, sans-serif;}
   margin-top: 30px;
 }
 .card-img{
-   width: 400px;
-  height: 500px;
+   width: 350px;
+  height: 350px;
 }
 .cards{
   margin-top:100px;
    display: flex;
   justify-content: space-around;
-}
+  flex-wrap: wrap;
+  }
 .card-txt{
   font-size: 30px;
 }
+.fashions-info{
+   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top:100px;
+
+}
+ 
+.fashion-name{
+   width: 400px;
+  font-size: 30px;
+  margin:20px;
+}
+.fashion-img{
+  height: 200px;
+  width: 300px;
+}
+.explore-course{
+  border:1px solid ;
+  padding: 10px;
+  background: #B91D47;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+ .crowned{
+   background: url(https://png.pngtree.com/element_origin_min_pic/16/08/24/1657bd606b35b43.jpg);
+
+ }

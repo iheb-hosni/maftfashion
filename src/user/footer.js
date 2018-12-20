@@ -4,7 +4,7 @@ class Footer extends React.Component{
     render(){
         return(
             
-                <div className="container-fuiled social">
+                <div className="container-fluid social">
 		<div className="row">
 			<div className="col-lg-8 col-md-6 col-sm-12 ">
                <div className= "col-lg-4 col-md-6 col-sm-12 img">
@@ -17,7 +17,7 @@ class Footer extends React.Component{
                </ul>
 </div>
 			</div>
-			<div className="col-lg-4 col-md-6 col-sm-12 soc">
+			<div className="col-lg-4 col-md-4 col-sm-12 soc">
 				<h1 className="titre-txt">MAFTFASHION</h1>
 				<h2 className="titre-adr">MAFTFASHION ,Cité Venus menzah 7, Tunis 2037</h2>
       <ul>

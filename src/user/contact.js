@@ -1,9 +1,12 @@
 import React from 'react';
+import Navmenu from './navmenu'
 
 class Contact extends React.Component{
     render(){
         return(
              <div className="contact-us">
+                         <Navmenu />
+
                 <h1 className="adress-txt" id="contactus"><span className="our-adr">Contact US</span></h1>
 <div className="container">
 <div className="col-lg-12 col-md-12 col-sm-12 adr">

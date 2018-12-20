@@ -13,6 +13,7 @@ class Slider extends React.Component{
   <div className="carousel-inner">
     <div className="carousel-item active">
       <img className="d-block w-100" src="https://static1.squarespace.com/static/579095c1b8a79bc4629250d1/t/582afeb5d482e9ed3b94e55c/1477901857226/frontlinefashion-banner.jpg?format=1500w" alt="First slide" />
+      
     </div>
     <div className="carousel-item">
       <img className="d-block w-100" src="http://www.britishfashioncouncil.com/uploads/files/1/News/david.jpg" alt="Second slide" />

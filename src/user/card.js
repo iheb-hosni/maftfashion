@@ -30,10 +30,12 @@ const Cardd = (props) => {
 };
 const Cards =()=>{
     return(
-        <div className="cards">
+        <div className=" row">
+         <div className="col-md-12 col-sm-12 cards">
             {cardinfo.map(el=>(
                 <Cardd element={el} />
             ))} 
+            </div>
         </div>
     )
 }

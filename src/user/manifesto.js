@@ -4,13 +4,13 @@ import Navmenu from './navmenu'
 class Manifesto extends React.Component{
     render(){
         return(
-        <div>
+    <div>
         <Navmenu />
-        <div>
-        <h1>sjdfsj</h1>
-        </div> 
+        
+        <h1>fssg</h1>
+        
        
-            </div>
+    </div>
         )
     }
 }
