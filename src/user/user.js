@@ -16,7 +16,6 @@ export default function user() {
         <Text />
         <About />
         <Citation />
-        <Footer />
     </div>
   )
 }

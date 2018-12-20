@@ -4,7 +4,7 @@ class Designer extends React.Component{
     render(){
         return(
 
-            <div className="container-fuild">
+            <div className="container-fluid">
                         <Navmenu />
 
             <div className="row">

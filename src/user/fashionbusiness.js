@@ -3,7 +3,7 @@ import Navmenu from './navmenu'
 const fashion=[
     {
         fashionimg:"http://www.pleasemagazine.com/wp-content/uploads/2015/10/demna-balenciaga-300x200.jpg",
-        fashiontxt:"access all course for just USD $240 per year"
+        fashiontxt:" all course for just USD $240 per year"
     },
     {
         fashionimg:"http://www.pleasemagazine.com/wp-content/uploads/2018/01/phonegame_BCT_calypsomahieu_08-300x240.jpg",
@@ -19,7 +19,7 @@ const fashion=[
     },
     {
         fashionimg:"http://www.pleasemagazine.com/wp-content/uploads/2015/09/burberry-ss16-1-300x200.jpg",
-        fashiontxt:"The Art and Science of Buying and Merchandising"
+        fashiontxt:"The Art and Science of Buying"
     },
     {
         fashionimg:"http://www.pleasemagazine.com/wp-content/uploads/2018/03/shot-5-300x240.jpg",
@@ -29,11 +29,11 @@ const fashion=[
 const Fashion = props =>{
     const element = props.element;
   return (
-    <div className="fasion-busi">
+    <div className="fashion-busi">
       
         <img className="fashion-img" src={element.fashionimg} />
         <div className="fashion-info">
-          <h1 className="fashion-name">{element.fashiontxt}</h1>
+          <h2 className="fashion-name">{element.fashiontxt}</h2>
           <input type="submit" className="explore-course" value="Explore Course" />
           
         </div>
@@ -45,10 +45,15 @@ const Fashions = () => {
     return (
       <div className="fashions-info">
       <Navmenu />
+      <div className="container">
+            <div className="row">
         {fashion.map(elm => (
+            <div className="col-lg-4 col-md-6 col-sm-12">
           <Fashion element={elm} />
+            </div>
         ))}
-        ;
+        </div>
+        </div>
       </div>
     );
   };

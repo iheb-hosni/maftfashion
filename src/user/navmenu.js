@@ -12,15 +12,15 @@ import { BrowserRouter, Link, Route } from 'react-router-dom'
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-                <a className="nav-link" href="#"><Link to ="/home">Home</Link></a>
+               <Link to ="/home"> <a className="nav-link" href="#">Home</a></Link>
               </li>
               <li class="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 About
                 </a>
                 <div className="dropdown-menu aboutmenu" aria-labelledby="Fashion">
-                  <a className="dropdown-item" href="#"><Link to="/concept">Concept</Link></a>
-                  <a className="dropdown-item" href="#"> <Link to="/manifesto">Manifesto</Link> </a>
+                  <Link to="/concept"><a className="dropdown-item" href="#">Concept</a></Link>
+                  <Link to="/manifesto"> <a className="dropdown-item" href="#">Manifesto</a></Link> 
                   
                    
                 </div>
@@ -34,10 +34,10 @@ import { BrowserRouter, Link, Route } from 'react-router-dom'
                   Fashion
                 </a>
                 <div class="dropdown-menu" aria-labelledby="Fashion">
-                  <a class="dropdown-item" href="#"><Link to ="/news">News</Link></a>
-                  <a class="dropdown-item" href="#"><Link to ="/inspiration">Inspiration</Link></a>
+                  <Link to ="/news"><a class="dropdown-item" href="#">News</a></Link>
+                  <Link to ="/inspiration"><a class="dropdown-item" href="#">Inspiration</a></Link>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#"><Link to ="/designer-of-the-month">Designer of the month</Link></a>
+                  <Link to ="/designer-of-the-month"><a class="dropdown-item" href="#">Designer of the month</a></Link>
                 </div>
               </li>
               <li class="nav-item dropdown">
@@ -45,20 +45,20 @@ import { BrowserRouter, Link, Route } from 'react-router-dom'
                   Education
                 </a>
                 <div class="dropdown-menu" aria-labelledby="Fashion">
-                  <a class="dropdown-item" href="#"><Link to="/fashion-history" >FASHION HISTORY</Link></a>
-                  <a class="dropdown-item" href="#"><Link to ="/fashion-business" >FASHION BUSINESS</Link></a>
+                  <Link to="/fashion-history" ><a class="dropdown-item" href="#">FASHION HISTORY</a></Link>
+                  <Link to ="/fashion-business" ><a class="dropdown-item" href="#">FASHION BUSINESS</a></Link>
                   
                    
                 </div>
               </li>
               <li class="nav-item ">
-                <a className="nav-link" href="#">MAFTERS<span Name="sr-only"></span></a>
+                <Link to ="/mafters"><a className="nav-link" href="#">MAFTERS<span Name="sr-only"></span></a></Link>
               </li>
               <li className="nav-item ">
-                <a className="nav-link" href="#">CULTURE<span class="sr-only"></span></a>
+                <Link to ="/culture"><a className="nav-link" href="#">CULTURE<span class="sr-only"></span></a></Link>
               </li>
               <li className="nav-item ">
-                <a className="nav-link" href="#contactus"><Link to="/contact">CONTACT</Link><span class="sr-only"></span></a>
+               <Link to ="/contact"><a className="nav-link" href="#contactus"><Link to="/contact">CONTACT</Link><span class="sr-only"></span></a></Link>
               </li>
             </ul>
             <form className="form-inline my-2 my-lg-0">

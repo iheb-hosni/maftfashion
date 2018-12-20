@@ -50,9 +50,7 @@
 }
 .social{
   background-color: #01202F;
-
- 
-   
+  margin-top: 20px;
  }
 hr{
 	background-color: #50545c;
@@ -138,7 +136,7 @@ hr{
   height: 300px;
 }
 
-.timeline{
+.timelines{
   position: relative;
   margin: 50px auto;
   padding: 40px 0;
@@ -152,7 +150,7 @@ hr{
 
 
 }
-.timeline::before
+.timelines::before
 {
   content: '';
   position: absolute;
@@ -161,25 +159,25 @@ hr{
   height: 95%;
   background: #c5c5c5;
 }
-.timeline ul
+.timelines ul
 {
   margin:0;
   padding:0;
 }
-.timeline ul li{
+.timelines ul li{
   list-style: none;
   position: relative;
   width: 50%;
   padding: 20px 40px;
   box-sizing: border-box;
 }
-.timeline ul li:nth-child(odd)
+.timelines ul li:nth-child(odd)
 {
   float: left;
   text-align: right;
   clear:both;
 }
-.timeline ul li:nth-child(even)
+.timelines ul li:nth-child(even)
 {
   float: right;
   text-align: left;
@@ -188,7 +186,7 @@ hr{
 .content{
   padding-bottom: 20px;
 }
-.timeline ul li:nth-child(odd)::before
+.timelines ul li:nth-child(odd)::before
 {
   content: '';
   position: absolute;
@@ -200,7 +198,7 @@ hr{
   border-radius: 50%;
   box-shadow: 0 0 0 3px rgba(233,33,99,0.2);
 }
-.timeline ul li:nth-child(even)::before
+.timelines ul li:nth-child(even)::before
 {
   content: '';
   position: absolute;
@@ -212,23 +210,23 @@ hr{
   border-radius: 50%;
   box-shadow: 0 0 0 3px rgba(233,33,99,0.2);
 }
-.timeline ul li h3{
+.timelines ul li h3{
   margin: 0;
   padding: 0;
   font-weight: 600;
   color: rgba(233,33,99,1)
 }
-.timeline ul li p 
+.timelines ul li p 
 {
   margin:10px 0 0;
   padding: 0;
 }
-.timeline ul li .time{
+.timelines ul li .time{
   margin:0;
   padding: 0;
   font-size: 14px;
 }
-.timeline ul li:nth-child(odd) .time
+.timelines ul li:nth-child(odd) .time
 {
   position: absolute;
   top: 12px;
@@ -240,7 +238,7 @@ hr{
   border-radius: 18px;
   box-shadow: 0 0 0 3px rgba(233,33,99,0.3);
 }
-.timeline ul li:nth-child(even) .time
+.timelines ul li:nth-child(even) .time
 {
   position: absolute;
   top: 12px;
@@ -256,6 +254,10 @@ hr{
    margin-bottom: 50px;
    color: white
 }
+.fashion-busi{
+  margin: 10px;
+  border: 1px solid;
+  }
 .citation{
   background: url(https://quotefancy.com/media/wallpaper/3840x2160/4730802-Coco-Chanel-Quote-Everyday-is-a-fashion-show-and-the-world-is-the.jpg);
   background-repeat: no-repeat;
@@ -406,13 +408,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
  
 .fashion-name{
-   width: 400px;
-  font-size: 30px;
-  margin:20px;
+   width: 100%;
+  font-size: 20px;
 }
 .fashion-img{
   height: 200px;
-  width: 300px;
+  width: 100%;
 }
 .explore-course{
   border:1px solid ;
@@ -425,6 +426,35 @@ body {font-family: Arial, Helvetica, sans-serif;}
  .crowned{
    background: url(https://png.pngtree.com/element_origin_min_pic/16/08/24/1657bd606b35b43.jpg);
 
+ }
+ .fasion-year{
+   border: 1px solid ;
+  height:300px;
+  margin: 8px;
+  width: 300px
+ }
+ .fasion-year:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+	z-index: 1;
+	box-shadow: 0 5px 10px rgba(0,0,0,1)
+ }
+ .years-info{
+   
+   margin-top:90px;
+   align-items: center;
+   }
+ .fashionyear-img{
+   height: 220px;
+   width: 100%;
+ }
+ .fashion-year-info{
+   display: flex;
+
+ }
+ .fashion-year-name{
+    font-size: 30px;
+   margin-top:33px;
  }
   .admin-container{
     border : 1px solid black;
@@ -497,11 +527,11 @@ body {margin:0;}
 }
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-div.content {
+/* div.content {
   margin-left: 200px;
   padding: 1px 16px;
-  height: 1000px;
-}
+  height: 1000px; */
+
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
@@ -510,8 +540,8 @@ div.content {
     height: auto;
     position: relative;
   }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
+  /* .sidebar a {float: left;}
+  div.content {margin-left: 0;} */
 }
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */

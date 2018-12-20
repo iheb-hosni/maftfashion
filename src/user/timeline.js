@@ -8,7 +8,7 @@ class Timeline extends React.Component{
         };
         return(
            
-            <div className="container timeline">
+            <div className="container timelines">
             <h1 className="fashion-his">Fashion History</h1>
               <ul>
               <li>

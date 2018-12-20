@@ -9,6 +9,7 @@ import News from './user/news'
 import Fashionhistory from './user/fashionhistory'
 import Fashion from './user/fashionbusiness'
 import Designer from './user/designerofM'
+import Fashionyears from './user/fashionyear' 
 
 
 
@@ -16,7 +17,7 @@ const Routes = () => {
     return <Router>
     <Switch>
     <Route exact path="/admin" component={Authentif} />
-    <Route path="/home" component={user} />  
+    <Route exact path="/" component={user} />  
     <Route path ="/concept" component={Concept}/>
     <Route path ="/manifesto" component={Manifesto} />
     <Route path ="/contact" component={Contact} />
@@ -24,6 +25,8 @@ const Routes = () => {
     <Route path ="/fashion-history" component={Fashionhistory} />
     <Route path ="/fashion-business" component={Fashion} />
     <Route path ="/designer-of-the-month" component={Designer} />
+    <Route path ="/home" component={user} />
+    <Route path ="/1920" component={Fashionyears} />
     </Switch>
     </Router>
 
