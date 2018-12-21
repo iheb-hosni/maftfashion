@@ -9,6 +9,7 @@ import News from './user/news'
 import Fashionhistory from './user/fashionhistory'
 import Fashion from './user/fashionbusiness'
 import Designer from './user/designerofM'
+import Adminpage from './admin/Adminpage';
 import Fashionyears from './user/fashionyear' 
 
 
@@ -17,6 +18,7 @@ const Routes = () => {
     return <Router>
     <Switch>
     <Route exact path="/admin" component={Authentif} />
+    <Route path="/pageadmin" component={Adminpage} />
     <Route exact path="/" component={user} />  
     <Route path ="/concept" component={Concept}/>
     <Route path ="/manifesto" component={Manifesto} />
