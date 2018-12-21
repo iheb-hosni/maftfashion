@@ -37,11 +37,7 @@ class Footer extends React.Component{
 		</div>
 
 	</div>
-<hr />
-<div className="copyright-res">
-		
-<p className="copyright">© 2018 MAFTFASHION. All rights reserved.</p>
-	</div>
+
 
             </div>
         )
