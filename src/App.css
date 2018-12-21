@@ -358,8 +358,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
  .concept-title:hover{
 	border-top: 1px solid #3F3C40;
   border-bottom: 1px solid #3F3C40;
-
-  
 }
 .concept-title{
 	background: url('https://imgur.com/OmTjsAW.jpg');
@@ -382,6 +380,21 @@ body {font-family: Arial, Helvetica, sans-serif;}
 	{
 		background-position: 100% 100%;
 	}
+}
+.manifesto-title{
+  background: url('https://imgur.com/OmTjsAW.jpg');
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	animation: animate 10s linear infinite;
+	font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 250px;
+  margin: auto;
+}
+.manifesto-title:hover{
+	border-top: 1px solid #3F3C40;
+  border-bottom: 1px solid #3F3C40;
 }
 .maft-concept{
   margin-top: 30px;
@@ -425,7 +438,38 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
  .crowned{
    background: url(https://png.pngtree.com/element_origin_min_pic/16/08/24/1657bd606b35b43.jpg);
-
+   height: 150px;
+   width: 200px;
+   background-repeat: no-repeat;
+   background-size: contain;
+    margin-top:50px;
+   margin-left:325px;
+ }
+ .designer-blok{
+    margin-top: 70px;
+ }
+  
+ .designerOfTheMonth-identif{
+  margin-top:300px;
+  font-weight: 600;
+  font-size: 35px
+}
+ .designerOfTheMonth{
+    font-family: 'Indie Flower', cursive;
+ }
+ .designerOfTheMonth-article{
+    height: 200px;
+    
+ }
+ .designoftheMonth-img{
+    height: 180px;
+    width: 100%;
+ }
+ .designofthemonth-article{
+   margin-top:20px;
+ }
+ .designer-articles{
+    margin-top:100px;
  }
  .fasion-year{
    border: 1px solid ;
@@ -452,10 +496,44 @@ body {font-family: Arial, Helvetica, sans-serif;}
    display: flex;
 
  }
+ .manifesto{
+    margin-top:90px;
+ }
  .fashion-year-name{
     font-size: 30px;
    margin-top:33px;
  }
+ .carousel-card {
+  width: 260px;
+  height: 350px;
+  display: flex;
+  position: relative;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+.carousel-card-image {
+  margin-top:20px;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-card-title {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color:white;
+   padding: 10px;
+  transition-duration: 200ms;
+}
+.carousel-card:hover .carousel-card-title {
+  bottom: 0;
+}
+
   .admin-container{
     border : 1px solid black;
     width:300px;

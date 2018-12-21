@@ -58,7 +58,7 @@ import { BrowserRouter, Link, Route } from 'react-router-dom'
                 <Link to ="/culture"><a className="nav-link" href="#">CULTURE<span class="sr-only"></span></a></Link>
               </li>
               <li className="nav-item ">
-               <Link to ="/contact"><a className="nav-link" href="#contactus"><Link to="/contact">CONTACT</Link><span class="sr-only"></span></a></Link>
+               <Link to ="/contactus"><a className="nav-link" href="#contactus"><Link to="/contact">CONTACT</Link><span class="sr-only"></span></a></Link>
               </li>
             </ul>
             <form className="form-inline my-2 my-lg-0">

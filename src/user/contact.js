@@ -1,12 +1,10 @@
 import React from 'react';
-import Navmenu from './navmenu'
-
+ 
 class Contact extends React.Component{
     render(){
         return(
              <div className="contact-us">
-                         <Navmenu />
-
+ 
                 <h1 className="adress-txt" id="contactus"><span className="our-adr">Contact US</span></h1>
 <div className="container">
 <div className="col-lg-12 col-md-12 col-sm-12 adr">
@@ -32,10 +30,10 @@ class Contact extends React.Component{
                     <textarea className="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
                         <span className="help-block"><p id="characterLeft" className="help-block ">You have reached the limit</p></span>                    
                     </div>
-            <div className="button">
+            {/* <div className="button">
          <button type="reset" id="reset" name="reset" className="btn btn-success pull-right">annuler</button>
          <button type="submit" id="submit" name="submit" className="btn btn-primary pull-right" onclick="msg()">envoyer</button>
-          </div>
+          </div> */}
         </form>
     </div>
 </div>

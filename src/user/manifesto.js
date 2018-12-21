@@ -1,13 +1,16 @@
 import React from 'react';
-import Navmenu from './navmenu'
-
-class Manifesto extends React.Component{
+import  CarouselCard from './carouselcard'
+ class Manifesto extends React.Component{
     render(){
         return(
-    <div>
-        <Navmenu />
+    <div className="manifesto">
         
-        <h1>fssg</h1>
+        <h1 className="manifesto-title">Manifesto</h1>
+            
+        <div>
+            <CarouselCard />
+         </div>
+            
         
        
     </div>
