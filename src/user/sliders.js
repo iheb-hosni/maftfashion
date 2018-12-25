@@ -12,14 +12,13 @@ class Slider extends React.Component{
   </ol>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img className="d-block w-100" src="https://static1.squarespace.com/static/579095c1b8a79bc4629250d1/t/582afeb5d482e9ed3b94e55c/1477901857226/frontlinefashion-banner.jpg?format=1500w" alt="First slide" />
-      
+      <img className="d-block w-100" src="https://i.imgur.com/8L4MuqV.jpg" alt="First slide"/>
     </div>
     <div className="carousel-item">
-      <img className="d-block w-100" src="http://www.britishfashioncouncil.com/uploads/files/1/News/david.jpg" alt="Second slide" />
+      <img className="d-block w-100" src="https://i.imgur.com/FFnCuCL.jpg" alt="Second slide" />
     </div>
     <div className="carousel-item">
-      <img className="d-block w-100" src="https://cache.cosmopolitan.fr/data/photo/w1000_ci/57/cover-tendance-automne-hiver1.jpg" alt="Third slide" />
+      <img className="d-block w-100" src="https://i.imgur.com/PlVUDzd.jpg" alt="Third slide" />
     </div>
   </div>
   <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

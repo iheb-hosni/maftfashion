@@ -33,9 +33,10 @@
 .form-inline{
   margin-right:50px;
 }
-.btn{
-  margin-right: 20px;
-}
+ 
+.butt{
+    width: 100px;
+  }
 .navbar{
   position: fixed;
   z-index:5255555551;
@@ -322,8 +323,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
   padding: 15px 20px;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 100px;
   opacity: 0.9;
+  margin:20px;
 }
 
 .btn:hover {
@@ -396,6 +398,39 @@ body {font-family: Arial, Helvetica, sans-serif;}
 	border-top: 1px solid #3F3C40;
   border-bottom: 1px solid #3F3C40;
 }
+.news-title{
+  background: url('https://imgur.com/OmTjsAW.jpg');
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	animation: animate 10s linear infinite;
+	font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 150px;
+  margin: auto;
+}
+
+.news-title:hover{
+	border-top: 1px solid #3F3C40;
+  border-bottom: 1px solid #3F3C40;
+}
+.inspiration-title{
+  background: url('https://imgur.com/OmTjsAW.jpg');
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	animation: animate 10s linear infinite;
+	font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 280px;
+  margin: auto;
+}
+
+.inspiration-title:hover{
+	border-top: 1px solid #3F3C40;
+  border-bottom: 1px solid #3F3C40;
+}
+
 .maft-concept{
   margin-top: 30px;
 }
@@ -503,6 +538,17 @@ body {font-family: Arial, Helvetica, sans-serif;}
     font-size: 30px;
    margin-top:33px;
  }
+ .cultureSlider{
+   width: 97%;
+   margin-left: 20px;
+ }
+ .carousel-caption{
+    margin-bottom: 150px;
+  }
+  .caption{
+    font-size: 40px;
+    font-weight: 600;
+  }
  .carousel-card {
   width: 260px;
   height: 350px;
@@ -512,7 +558,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   overflow: hidden;
 }
 .carousel-card-image {
-  margin-top:20px;
+  margin-top:100px;
   display: flex;
   flex: 1;
   justify-content: space-around;
@@ -533,7 +579,42 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .carousel-card:hover .carousel-card-title {
   bottom: 0;
 }
+.item{
+ margin:20px;
+   }
+   .owl-img{
+     width: 100%;
+     height: 500px;
+      position: relative;
+     flex: 1;
+     background-size: cover;
+    background-position: center;
+   }
+.owl-theme{
+  position: relative;
+ 
+  margin-top:100px;
+}
+ .owl-title{
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 10px;
+  transition-duration: 200ms;
+ }
+ .owl-theme:hover .owl-title {
+  bottom: 0;
+}
 
+.register-mafters{
+    margin-top:100px;
+   display: flex;
+   justify-content: flex-end;
+ }
   .admin-container{
     border : 1px solid black;
     width:300px;

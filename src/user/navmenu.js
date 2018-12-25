@@ -3,10 +3,10 @@ import { BrowserRouter, Link, Route } from 'react-router-dom'
  class Navmenu extends React.Component{
     render(){
         return(
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#"><img data-at2x="http://maftfashion.com/wp-content/uploads/2018/06/logomaftfashion-1.png" src="http://maftfashion.com/wp-content/uploads/2018/06/logomaftfashion-1.png" height="50" width="60" alt="MAFT FASHION" /></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <a className="navbar-brand" href="#"><img data-at2x="http://maftfashion.com/wp-content/uploads/2018/06/logomaftfashion-1.png" src="http://maftfashion.com/wp-content/uploads/2018/06/logomaftfashion-1.png" height="50" width="60" alt="MAFT FASHION" /></a>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
           </button>
         
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -29,29 +29,29 @@ import { BrowserRouter, Link, Route } from 'react-router-dom'
                
               
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Fashion
                 </a>
-                <div class="dropdown-menu" aria-labelledby="Fashion">
-                  <Link to ="/news"><a class="dropdown-item" href="#">News</a></Link>
-                  <Link to ="/inspiration"><a class="dropdown-item" href="#">Inspiration</a></Link>
-                  <div class="dropdown-divider"></div>
-                  <Link to ="/designer-of-the-month"><a class="dropdown-item" href="#">Designer of the month</a></Link>
+                <div className="dropdown-menu" aria-labelledby="Fashion">
+                  <Link to ="/news"><a className="dropdown-item" href="#">News</a></Link>
+                  <Link to ="/inspiration"><a className="dropdown-item" href="#">Inspiration</a></Link>
+                  <div className="dropdown-divider"></div>
+                  <Link to ="/designer-of-the-month"><a className="dropdown-item" href="#">Designer of the month</a></Link>
                 </div>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Education
                 </a>
-                <div class="dropdown-menu" aria-labelledby="Fashion">
-                  <Link to="/fashion-history" ><a class="dropdown-item" href="#">FASHION HISTORY</a></Link>
-                  <Link to ="/fashion-business" ><a class="dropdown-item" href="#">FASHION BUSINESS</a></Link>
+                <div className="dropdown-menu" aria-labelledby="Fashion">
+                  <Link to="/fashion-history" ><a className="dropdown-item" href="#">FASHION HISTORY</a></Link>
+                  <Link to ="/fashion-business" ><a className="dropdown-item" href="#">FASHION BUSINESS</a></Link>
                   
                    
                 </div>
               </li>
-              <li class="nav-item ">
+              <li className="nav-item ">
                 <Link to ="/mafters"><a className="nav-link" href="#">MAFTERS<span Name="sr-only"></span></a></Link>
               </li>
               <li className="nav-item ">

@@ -1,5 +1,5 @@
 import React from 'react';
-
+ 
 class Footer extends React.Component{
     render(){
         return(
@@ -12,8 +12,7 @@ class Footer extends React.Component{
                	<li><a href="#about">ABOUT US</a></li>
                	<li><a href="#">MAFTERS</a></li>
                	<li><a href="#">CULTURE</a></li>
-               
-               	 
+                	 
                </ul>
 </div>
 			</div>

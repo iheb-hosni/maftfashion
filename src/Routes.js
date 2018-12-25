@@ -10,7 +10,9 @@ import Fashionhistory from './user/fashionhistory'
 import Fashion from './user/fashionbusiness'
 import Designer from './user/designerofM'
 import Fashionyears from './user/fashionyear' 
- 
+import Culture from './user/culture'
+import Inspiration from './user/inspiration'
+import Mafters from './user/mafters'
 
 
 const Routes = () => {
@@ -27,6 +29,9 @@ const Routes = () => {
     <Route path ="/designer-of-the-month" component={Designer} />
     <Route path ="/home" component={user} />
     <Route path ="/1920" component={Fashionyears} />
+    <Route path ="/culture"  component={Culture} />
+    <Route path ="/inspiration"  component={Inspiration} />
+    <Route path ="/mafters" component={Mafters} />
     </Switch>
     </Router>
 

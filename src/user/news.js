@@ -1,16 +1,17 @@
 import React from 'react';
-import Navmenu from './navmenu'
+import CarouselCardSImage from './slidersnews'
  
 class News extends React.Component{
     render(){
         return(
-            <div>
-                <Navmenu />
-            <div>
-                <h1>News</h1>
-            </div>
-            </div>
-        )
+    <div className="manifesto">
+            <h1 className="news-title">News</h1>
+
+                <div>
+                <CarouselCardSImage />
+                </div>
+   </div>
+         )
 
     }
    

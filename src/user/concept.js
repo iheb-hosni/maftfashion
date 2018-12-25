@@ -5,8 +5,7 @@ import Cards from './card'
     render(){
         return(
             <div>
-            <Navmenu />
-            <div className="maft-info">
+             <div className="maft-info">
                 <h1 className="concept-title">Concept</h1>
                 <p className="maft-concept">
                 Maft Fashion gives designers a platform where they can connect with a global audience and expose their <br />

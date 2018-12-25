@@ -10,8 +10,7 @@ import Citation from './paralex'
 export default function user() {
   return (
     <div>
-        <Navmenu />
-        <Slider />
+         <Slider />
         <Text />
         <About />
         <Citation />
