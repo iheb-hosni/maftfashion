@@ -44,7 +44,6 @@ const Fashion = props =>{
 const Fashions = () => {
     return (
       <div className="fashions-info">
-      <Navmenu />
       <div className="container">
             <div className="row">
         {fashion.map(elm => (

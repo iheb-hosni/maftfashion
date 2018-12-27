@@ -1,5 +1,5 @@
 import React from 'react';
- 
+ import {Link} from 'react-router-dom'
 class Footer extends React.Component{
     render(){
         return(
@@ -9,9 +9,10 @@ class Footer extends React.Component{
 			<div className="col-lg-8 col-md-6 col-sm-12 ">
                <div className= "col-lg-4 col-md-6 col-sm-12 img">
                <ul className="lien">
-               	<li><a href="#about">ABOUT US</a></li>
-               	<li><a href="#">MAFTERS</a></li>
-               	<li><a href="#">CULTURE</a></li>
+               	<li><Link to ="/concept"><a href="#">CONCEPT</a></Link></li>
+               	<li><Link to ="/mafters"><a href="#">MAFTERS</a></Link></li>
+               	<li><Link to ="/culture"><a href="#">CULTURE</a></Link></li>
+                <li><Link to ="/inspiration"><a href="#">INSPIRATION</a></Link></li>
                 	 
                </ul>
 </div>

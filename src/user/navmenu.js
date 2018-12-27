@@ -58,11 +58,16 @@ import { BrowserRouter, Link, Route } from 'react-router-dom'
                 <Link to ="/culture"><a className="nav-link" href="#">CULTURE<span class="sr-only"></span></a></Link>
               </li>
               <li className="nav-item ">
-               <Link to ="/contactus"><a className="nav-link" href="#contactus"><Link to="/contact">CONTACT</Link><span class="sr-only"></span></a></Link>
+               <Link to="/contact"><a className="nav-link" href="#">CONTACT<span class="sr-only"></span></a></Link>
               </li>
             </ul>
             <form className="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+              <Route
+                path='/mafters'
+                render={(props) => 
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search the article" value={this.props.search} onChange={this.props.changeme} aria-label="Search"  />
+                }
+              />
                <div className="modal-sign">
            
           </div>

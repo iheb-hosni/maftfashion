@@ -46,12 +46,22 @@
   top:0;
   
 }
+.my-carousel-row{
+  height: 100%;
+  width:100%;
+  padding-right: 15px;
+    padding-left: 15px;
+  border:solid red
+}
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
 .sliders{
   margin-top:60px;
+  border:solid;
 }
 .social{
   background-color: #01202F;
-  margin-top: 20px;
+  margin-top: 8px;
  }
 hr{
 	background-color: #50545c;
@@ -127,8 +137,7 @@ hr{
 }
 .myrow{
   padding: 30px;
-  margin: 60px 0px;
-  background:linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+  margin: 10px 0px;
   background-attachment: fixed;
 
 }
@@ -143,7 +152,7 @@ hr{
   padding: 40px 0;
   width: 100%;
   box-sizing: border-box;
-  background: url(https://wallpapercave.com/wp/UhRqKPh.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://wallpapercave.com/wp/UhRqKPh.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -215,7 +224,7 @@ hr{
   margin: 0;
   padding: 0;
   font-weight: 600;
-  color: rgba(233,33,99,1)
+  color:white;
 }
 .timelines ul li p 
 {
@@ -251,6 +260,10 @@ hr{
   border-radius: 18px;
   box-shadow: 0 0 0 3px rgba(233,33,99,0.3);
 }
+.history a {
+  color: white !important;
+  text-decoration: none !important;
+}
 .fashion-his{
    margin-bottom: 50px;
    color: white
@@ -274,6 +287,13 @@ hr{
 .info{
   color: white;
 }
+.articles{
+  width: 300px;
+  height:300px;
+    border-radius: 12px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+}
 .articles-info{
   display: flex;
   flex-wrap: wrap;
@@ -285,7 +305,8 @@ hr{
    width: 300px;
   font-size: 20px;
    color: black;
-   margin:10px;
+  padding: 5px;
+  box-sizing: border-box
 }
 
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -332,19 +353,28 @@ body {font-family: Arial, Helvetica, sans-serif;}
   opacity: 1;
 }
 .article-img{
+  border-radius: 15px 15px 0px 0px ;
   height: 200px;
-  width: 300px;
+  width: 100%;
 }
+
  .mafttext{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 150px;
-    margin-top:20px;
-    background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/90/79/7757de315673000.jpg);
+    margin-top:8px;
+    background: url('https://images.pexels.com/photos/1345082/pexels-photo-1345082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+  }
+  .maftext-row{
+    height:100%;
+    width:100%;
+    background-color: rgba(255,255,255,0.7);
+    display:flex;
+    align-items: center;
   }
   .mafttext-intro{
     font-size: 50px;
@@ -463,6 +493,38 @@ body {font-family: Arial, Helvetica, sans-serif;}
   height: 200px;
   width: 100%;
 }
+.register-btn{
+  display: flex;
+  height: 100px;
+ }
+ .mafttext-intro a{
+   color:black;
+   text-decoration: none !important;
+
+ }
+ .manifesto-txt{
+    margin-top:20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 35px;
+
+ }
+ .manifesto-texte{
+    width: 60%;
+   padding: 30px;
+  margin-left:250px;
+ }
+ .maft-concept{
+    font-size: 20px;
+   font-weight: 400;
+ 
+ }
+ 
+ /* a{
+   color:black !important;
+   text-decoration: none !important;
+ } */
 .explore-course{
   border:1px solid ;
   padding: 10px;
@@ -478,12 +540,20 @@ body {font-family: Arial, Helvetica, sans-serif;}
    background-repeat: no-repeat;
    background-size: contain;
     margin-top:50px;
-   margin-left:325px;
+   margin-left:500px;
  }
  .designer-blok{
     margin-top: 70px;
  }
-  
+  .signup-modal{
+     height: 100px;
+  }
+  .signin-modal{
+     height: 100px;
+  }
+  .addarticle-modal{
+     height: 100px;
+  }
  .designerOfTheMonth-identif{
   margin-top:300px;
   font-weight: 600;
@@ -510,7 +580,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
    border: 1px solid ;
   height:300px;
   margin: 8px;
-  width: 300px
+  width: 300px;
+  transition: all 0.3s ease-in-out
  }
  .fasion-year:hover{
    cursor: pointer;
@@ -558,12 +629,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
   overflow: hidden;
 }
 .carousel-card-image {
-  margin-top:100px;
   display: flex;
   flex: 1;
   justify-content: space-around;
   background-size: cover;
   background-position: center;
+  margin-top:20px;
 }
 .carousel-card-title {
   position: absolute;
@@ -596,8 +667,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
   margin-top:100px;
 }
  .owl-title{
+   margin:0px 21px;
   position: absolute;
-  bottom: -20px;
+  bottom: -5px;
   left: 0;
   right: 0;
   text-align: center;
@@ -606,14 +678,22 @@ body {font-family: Arial, Helvetica, sans-serif;}
   padding: 10px;
   transition-duration: 200ms;
  }
- .owl-theme:hover .owl-title {
-  bottom: 0;
+ .owl-item:hover .owl-title {
+  bottom: 10px;
 }
 
+.contact-btn{
+  border:1px solid red;
+}
+.article-name:hover{
+ text-decoration: none !important;
+}
+.article-list{
+  border:2px solid red
+}
 .register-mafters{
     margin-top:100px;
-   display: flex;
-   justify-content: flex-end;
+    justify-content: flex-end;
  }
   .admin-container{
     border : 1px solid black;
@@ -684,7 +764,54 @@ body {margin:0;}
   background-color: #555;
   color: white;
 }
+.nav-link a{
+  color: black !important;
+   text-decoration: none !important;
+}
+.nav-link {
+  color: black !important;
+   text-decoration: none !important;
+}
+.dropdown-item{
+  text-decoration: none !important;
+}
+.article-title{
+   font-weight: 600;
+}
+.article-txt{
+  font-size: 17px;
 
+    }
+  .article-item{
+     width: 300px;
+    margin:30px;
+    box-sizing: border-box;
+     box-shadow: 1px 1px 1px rgba(48, 42, 44, 0.5)
+
+  }
+  .articletxt{
+     margin-top:20px;
+    width: 100%;
+    padding: 20px;
+  }
+.article-items{
+    display: flex;
+     justify-content: center;
+    margin-top:100px;
+    flex-wrap: wrap;
+    width: 100%;
+ }
+.article-image{
+  height: 200px;
+  width: 100%;
+}
+.article-poster{
+  font-size: 20px;
+  font-weight: 400;
+}
+.articles-info a:hover {
+  text-decoration: none !important
+}
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 /* div.content {
   margin-left: 200px;

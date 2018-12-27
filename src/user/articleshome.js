@@ -46,7 +46,7 @@ const Articles = () => {
         {articles.map(elm => (
           <Article element={elm} />
         ))}
-        ;
+        
       </div>
     );
   };

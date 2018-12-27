@@ -3,7 +3,7 @@ import React from 'react';
 class Signin extends React.Component{
     render(){
         return(
-            <div>
+            <div className="signin-modal">
  <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
   SigniN
 </button>

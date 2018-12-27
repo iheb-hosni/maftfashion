@@ -12,7 +12,7 @@ class Designer extends React.Component{
 
             <div className="row">
              
-                <div className="col-lg-8 col-md-12 col-sm-12 designer-articles">
+                <div className="col-lg-12 col-md-12 col-sm-12 designer-articles">
                      <h2 className="designerOfTheMonth">Designer of the month</h2>
               
                 <div className="crowned">
@@ -24,10 +24,10 @@ class Designer extends React.Component{
                           <DesignerOfTheMonthArticles />
                       </div>
                     </div>
-             <div className="col-lg-4 col-md-12 col-sm-12 designer-blok">
+             {/* <div className="col-lg-4 col-md-12 col-sm-12 designer-blok">
               <h2 className="designerOfTheMonth-identif">Designer of the month</h2>
             
-             </div>
+             </div> */}
              
             </div>
         </div>
