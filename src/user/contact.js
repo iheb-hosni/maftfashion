@@ -5,7 +5,7 @@ class Contact extends React.Component{
         return(
              <div className="contact-us">
  
-                <h1 className="adress-txt" id="contactus"><span className="our-adr">Contact US</span></h1>
+                <h1 className="adress-txt text-focus-in" id="contactus"><span className="our-adr">Contact US</span></h1>
 <div className="container">
 <div className='row'>
 <div className="col-lg-12 col-md-12 col-sm-12 adr">

@@ -13,7 +13,9 @@ import Adminpage from './admin/Adminpage';
 import Fashionyears from './user/fashionyear'
 import Culture from './user/culture'
 import Inspiration from './user/inspiration'
-import Mafters from './user/mafters'
+import Mafters from './user/mafters';
+import Eckki from './user/eckki'
+import Freeping from './user/whyfreeping'
 
 
 const Routes = () => {
@@ -33,6 +35,8 @@ const Routes = () => {
         <Route path="/culture" component={Culture} />
         <Route path="/inspiration" component={Inspiration} />
         <Route path="/mafters" component={Mafters} />
+        <Route path="/ekcci" component={Eckki} />
+        <Route path ="/why-freeping" component={Freeping} />
     </Switch>
 
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 class Slider extends React.Component{
     render(){
@@ -16,7 +17,7 @@ class Slider extends React.Component{
       <img className="d-block w-100 rr" src="https://i.imgur.com/8L4MuqV.jpg" alt="First slide"/>
     </div>
     <div className="carousel-item">
-      <img className="d-block w-100 rr" src="https://i.imgur.com/FFnCuCL.jpg" alt="Second slide" />
+     <Link to ="/ekcci"> <img className="d-block w-100 rr" src="https://i.imgur.com/FFnCuCL.jpg" alt="Second slide" /></Link>
     </div>
     <div className="carousel-item">
       <img className="d-block w-100 rr" src="https://i.imgur.com/PlVUDzd.jpg" alt="Third slide" />

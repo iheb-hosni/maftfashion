@@ -6,7 +6,7 @@ class Inspiration extends React.Component{
     render(){
         return(
             <div className="manifesto">
-            <h1 className="inspiration-title">Inspiration</h1>
+            <h1 className="inspiration-title text-focus-in">Inspiration</h1>
 
                 <div>
                 <Hello />

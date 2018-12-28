@@ -34,7 +34,7 @@ const Fashion = props =>{
         <img className="fashion-img" src={element.fashionimg} />
         <div className="fashion-info">
           <h2 className="fashion-name">{element.fashiontxt}</h2>
-          <input type="submit" className="explore-course" value="Explore Course" />
+          <input type="submit" className="explore-course" value="See More" />
           
         </div>
       

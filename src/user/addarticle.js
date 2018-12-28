@@ -50,7 +50,7 @@ class Addarticle extends React.Component {
   render() {
     return (
       <div className="addarticle-modal">
-        <Button color="danger" onClick={this.toggle}>{this.props.buttonLabel} Add article</Button>
+        <Button color="primary" onClick={this.toggle}>{this.props.buttonLabel} Add article</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
         <form>
     <ModalHeader toggle={this.toggle}>Add Articles</ModalHeader>

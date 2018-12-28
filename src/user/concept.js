@@ -6,7 +6,7 @@ import Cards from './card'
         return(
             <div>
              <div className="maft-info">
-                <h1 className="concept-title">Concept</h1>
+                <h1 className="concept-title text-focus-in">Concept</h1>
                 <p className="maft-concept">
                 Maft Fashion gives designers a platform where they can connect with a global audience and expose their <br />
                  designs from anywhere in the world. <br />

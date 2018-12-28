@@ -13,7 +13,7 @@ class Designer extends React.Component{
             <div className="row">
              
                 <div className="col-lg-12 col-md-12 col-sm-12 designer-articles">
-                     <h2 className="designerOfTheMonth">Designer of the month</h2>
+                     <h1 className="designerOfTheMonth text-focus-in">Designer of the month</h1>
               
                 <div className="crowned">
                     </div>

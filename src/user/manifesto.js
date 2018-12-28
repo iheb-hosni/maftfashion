@@ -5,7 +5,7 @@ import  CarouselCard from './carouselcard'
         return(
     <div className="manifesto">
         
-        <h1 className="manifesto-title">Manifesto</h1>
+        <h1 className="manifesto-title text-focus-in">Manifesto</h1>
           <div className="manifesto-texte">
               <p className="manifesto-txt">Maft Fashion gives designers a platform where they can connect with a global audience and expose their 
 designs from anywhere in the world. 

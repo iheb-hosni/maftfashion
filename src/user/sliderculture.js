@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
  
 class CultureSlider extends React.Component{
     render(){
@@ -27,7 +28,7 @@ class CultureSlider extends React.Component{
     <div className="carousel-item">
       <img className="d-block w-100" src="http://maftfashion.com/wp-content/uploads/2018/09/IMG_901328129-1400x840.jpg" alt="Third slide" />
       <div className="carousel-caption d-none d-md-block">
-    <h2 className="caption">WHY FREEPING ?</h2>
+      <h2 className="caption"><Link to ="/why-freeping">WHY FREEPING ?</Link></h2>
     
     </div>
     </div>
